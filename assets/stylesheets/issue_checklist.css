@@ -53,3 +53,8 @@ span.checklist-item input {
 #add_checklist_item_input {
   width: 40%;
 }
+
+#add_checklist_item_button {
+ height: 20px;
+ width: 10px;
+}
