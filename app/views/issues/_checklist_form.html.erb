@@ -5,9 +5,7 @@
       <span id="checklist_form_items"> </span>
       <%= text_field_tag 'new_checklist', '',
           id: 'add_checklist_item_input' %>
-      <%= link_to '', '#',
-          id:    'add_checklist_item_button',
-          class: 'tag-add icon icon-add' %>
+      <%= link_to '<svg class="s18 icon-svg" aria-hidden="true"><use href="/assets/icons-64cb2f36.svg#icon--add"></use></svg>'.html_safe, '#', id: 'add_checklist_item_button', class: 'tag-add' %>
       <%= file_field_tag 'import_checklist',
           id:     'import_checklist_items_input',
           accept: 'text/plain' %>
